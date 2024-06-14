@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Forest.unity
     guid: 6f5f91363545f4947a6af65e01dc9113
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/kamping.unity
     guid: 15503b83e89b32c43b9a98e2eaa563cb
   m_configObjects: {}
