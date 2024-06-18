@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro.unity
     guid: 589dc91f61f3d81408497d9017efaf71
   - enabled: 1
+    path: Assets/since/katkat/CutScene.unity
+    guid: 315188e0329fb6448bdc131af2b3e351
+  - enabled: 1
+    path: Assets/since/katkat/katsin.unity
+    guid: c6f58f3b5df373c49a9d2ac16bba6b29
+  - enabled: 1
     path: Assets/Scenes/pribumi.unity
     guid: 246262d224d8159409b1d2d5c1fcce73
   - enabled: 0
