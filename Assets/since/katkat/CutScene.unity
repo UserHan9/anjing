@@ -505,7 +505,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -1061,7 +1061,9 @@ PlayableDirector:
   - key: {fileID: 3102265547528646916, guid: 46a1f7b0686148a4884a9dfc924dc86a, type: 2}
     value: {fileID: 620654742}
   m_ExposedReferences:
-    m_References: []
+    m_References:
+    - feea317c4a753da498620ae2c690ee80: {fileID: 0}
+    - d71b2f8289884dd4a82d69bb2a2cd0e4: {fileID: 16581461}
 --- !u!4 &2008610191
 Transform:
   m_ObjectHideFlags: 0

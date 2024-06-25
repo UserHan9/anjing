@@ -1,27 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5187065110882989251
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
-  m_Name: AnimationPlayableAsset
-  m_EditorClassIdentifier: 
-  m_Clip: {fileID: 7400000, guid: d01362efd3790ff40955eb308fede238, type: 2}
-  m_Position: {x: 0, y: 0, z: 0}
-  m_EulerAngles: {x: 0, y: 0, z: 0}
-  m_UseTrackMatchFields: 1
-  m_MatchTargetFields: 63
-  m_RemoveStartOffset: 1
-  m_ApplyFootIK: 1
-  m_Loop: 0
-  m_Version: 1
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &-5079066187053952330
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -97,10 +75,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 6.666666666666667
+    m_Start: 8.533333333333333
     m_ClipIn: 0
-    m_Asset: {fileID: -5187065110882989251}
-    m_Duration: 2
+    m_Asset: {fileID: 473406922911834747}
+    m_Duration: 3
     m_TimeScale: 1
     m_ParentTrack: {fileID: -4357808173426489958}
     m_EaseInDuration: 0
@@ -163,7 +141,7 @@ MonoBehaviour:
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: Infinity
-    m_PreExtrapolationTime: 6.666666666666667
+    m_PreExtrapolationTime: 8.533333333333333
     m_DisplayName: Transisi
   m_Markers:
     m_Objects: []
@@ -210,6 +188,28 @@ MonoBehaviour:
     m_ScenePreview: 1
   m_DurationMode: 0
   m_MarkerTrack: {fileID: 0}
+--- !u!114 &473406922911834747
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
+  m_Name: AnimationPlayableAsset
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: 7400000, guid: d01362efd3790ff40955eb308fede238, type: 2}
+  m_Position: {x: 0, y: 0, z: 0}
+  m_EulerAngles: {x: 0, y: 0, z: 0}
+  m_UseTrackMatchFields: 1
+  m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
+  m_ApplyFootIK: 1
+  m_Loop: 0
+  m_Version: 1
+  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &2918275356133536994
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 8.666666666666668
+    m_Start: 9.466666666666665
     m_ClipIn: 0
     m_Asset: {fileID: -5079066187053952330}
     m_Duration: 2.0666666666666678
@@ -458,7 +458,7 @@ MonoBehaviour:
     m_Start: 4.85
     m_ClipIn: 0
     m_Asset: {fileID: 2918275356133536994}
-    m_Duration: 3.533333333333333
+    m_Duration: 4.166666666666668
     m_TimeScale: 1
     m_ParentTrack: {fileID: 8059665071181580678}
     m_EaseInDuration: 0

@@ -7,6 +7,6 @@ public class Transition : MonoBehaviour
 {
     private void OnEnable()
     {
-        SceneManager.LoadScene("katsin");
+        SceneManager.LoadScene("Intro 2");
     }
 }
